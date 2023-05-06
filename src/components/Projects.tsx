@@ -1,5 +1,4 @@
 import Carousel  from "react-bootstrap/Carousel"
-import Image from "react-bootstrap/Image"
 import { useEffect, useState } from "react"
 import { getUserRepositories } from "@/pages/api/gitHubConsume"
 import style from "../styles/globalComponents.module.css"

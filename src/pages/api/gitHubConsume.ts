@@ -8,7 +8,7 @@ const octokit = new Octokit({
 
 export const getUserRepositories = async(username: string)=>{
     const response = await octokit.repos.listForUser({
-        username
+        username,
     })
     return response.data.map((repo)=>repo.name)
 }
